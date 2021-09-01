@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <RepoList />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import RepoList from "./components/RepoList.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    RepoList,
   },
 };
 </script>
@@ -20,7 +19,21 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./assets/background2.jpeg");
+  background-size: cover;
+  position: relative;
+}
+//overLay layer
+#app::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(0 0 0 / 75%);
 }
 </style>
