@@ -22,3 +22,10 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+##Technologies && libraries used
+###Normalize.css
+To render the elements normally  
+###Vue js
+
