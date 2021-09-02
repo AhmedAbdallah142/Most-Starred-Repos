@@ -63,9 +63,9 @@ export default {
     },
     handleScroll(el) {
       if (
-        // check if the user reached the end of scroll -20
+        // check if the user reached the end of scroll -10
         el.srcElement.offsetHeight + el.srcElement.scrollTop >=
-        el.srcElement.scrollHeight - 20
+        el.srcElement.scrollHeight - 10
       ) {
         this.getData();
       }
@@ -114,9 +114,9 @@ $blue: #2196f3; //save blue color in var to be used
     text-align: start;
     .repo-num {
       margin: auto 10px; // to center the element vertically
-      width: 30px;
+      color: $blue;
+      font-weight: bold;
       text-align: center;
-      background-color: $blue;
       font-size: 20px;
     }
     .Owner {
