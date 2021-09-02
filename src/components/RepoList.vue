@@ -79,6 +79,26 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 $blue: #2196f3; //save blue color in var to be used
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  // background: #f1f1f1;
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $blue;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #004b87;
+}
 
 #container {
   position: relative;
@@ -109,6 +129,9 @@ $blue: #2196f3; //save blue color in var to be used
           max-width: 125px;
           border-radius: 50%;
         }
+        // img:hover {
+        //   cursor: pointer;
+        // }
       }
       .user-name {
         padding: 5px;
