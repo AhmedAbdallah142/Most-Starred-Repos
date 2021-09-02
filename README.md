@@ -24,8 +24,13 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-##Technologies && libraries used
-###Normalize.css
+## Technologies && libraries used
+### Vue js
+```
+Vue is perfectly capable of powering sophisticated Single-Page Applications
+when used in combination with modern tooling and supporting libraries.
+```
+### Normalize.css
+```
 To render the elements normally  
-###Vue js
-
+```
